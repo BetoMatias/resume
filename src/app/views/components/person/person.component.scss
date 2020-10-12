@@ -1,0 +1,41 @@
+.description-box {
+    border: 2px solid black;
+    padding: 20px 0;
+    position: relative;
+    height: 80px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    & h1 {
+        position: absolute;
+        top: -30px;
+        padding: 0 20px 5px 20px;
+        background-color: white;
+    }
+}
+.abt-me {
+    height: 155px;
+    & div.col-2 {
+        height: inherit;
+        & img {
+            height: 155px;
+            width: 155px;
+        }
+    }
+}
+
+.border-round {
+    border-radius: 50%;
+}
+
+.description-abtme {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.description-abtme-col {
+    display: flex;
+    flex-direction: column;
+}

@@ -3,10 +3,11 @@ import { CommonModule } from '@angular/common';
 
 import { ViewsRoutingModule } from './views-routing.module';
 import { OverviewComponent } from './overview/overview.component';
+import { PersonComponent } from './components/person/person.component';
 
 
 @NgModule({
-  declarations: [OverviewComponent],
+  declarations: [OverviewComponent, PersonComponent],
   imports: [
     CommonModule,
     ViewsRoutingModule
