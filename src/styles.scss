@@ -1,1 +1,56 @@
-/* You can add global styles to this file, and also import other style files */
+@import "variables";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/card";
+@import "reset";
+@import "~normalize.css";
+
+@font-face {
+    src: url("assets/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf");
+    font-family: Roboto;
+}
+
+@font-face {
+    src: url("assets/fonts/Sansita_Swashed/SansitaSwashed-VariableFont_wght.ttf");
+    font-family: Sansita;
+}
+
+@font-face {
+    src: url("assets/fonts/Open_Sans/OpenSans-Regular.ttf");
+    font-family: OpenSans;
+}
+
+:host {
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: Sansita, Roboto, sans-serif;
+    font: 700 2.3rem Sansita, Roboto, sans-serif;
+}
+
+h3 {
+    font-family: OpenSans, Roboto, sans-serif;
+    font: 700 1.2rem OpenSans, Roboto, sans-serif;
+}
+
+small {
+    font: 500 0.8rem Roboto, sans-serif;
+}
+.container {
+    overflow: hidden;
+}

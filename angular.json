@@ -8,6 +8,9 @@
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
+        },
+        "@schematics/angular:module": {
+          "routing": true
         }
       },
       "root": "",
@@ -123,6 +126,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "resume"
 }
