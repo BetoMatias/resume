@@ -11,7 +11,7 @@
         position: absolute;
         top: -30px;
         padding: 0 20px 5px 20px;
-        background-color: white;
+        background-color: whitesmoke;
     }
 }
 .abt-me {
@@ -19,6 +19,7 @@
     & div.col-2 {
         height: inherit;
         & img {
+            border: 1px solid #021a40;
             height: 155px;
             width: 155px;
         }
