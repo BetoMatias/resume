@@ -3,6 +3,10 @@
         {
             "name": "feature/person",
             "base": "develop"
+        },
+        {
+            "name": "feature/sideInfo",
+            "base": "develop"
         }
     ]
 }

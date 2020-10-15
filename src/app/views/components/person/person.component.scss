@@ -11,11 +11,11 @@
         position: absolute;
         top: -30px;
         padding: 0 20px 5px 20px;
-        background-color: white;
+        background-color: whitesmoke;
     }
 }
 .abt-me {
-    height: 155px;
+    height: 170px;
     & div.col-2 {
         height: inherit;
         & img {
@@ -23,6 +23,7 @@
             width: 155px;
         }
     }
+    border-bottom: 2px solid black;
 }
 
 .border-round {
