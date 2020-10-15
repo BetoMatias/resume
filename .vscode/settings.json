@@ -7,6 +7,10 @@
         {
             "name": "feature/sideInfo",
             "base": "develop"
+        },
+        {
+            "name": "feature/main-content",
+            "base": "develop"
         }
     ]
 }

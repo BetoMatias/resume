@@ -10,13 +10,16 @@ import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontaweso
 
 import { faIdCard } from '@fortawesome/free-solid-svg-icons';
 import { faUniversity } from '@fortawesome/free-solid-svg-icons';
+import { faAtlas } from '@fortawesome/free-solid-svg-icons';
+import { faBuilding } from '@fortawesome/free-solid-svg-icons';
 import { faGlobeAmericas } from '@fortawesome/free-solid-svg-icons';
 import { faBook } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { MainInfoComponent } from './components/main-info/main-info.component';
 
 
 @NgModule({
-  declarations: [OverviewComponent, PersonComponent, SideInfoComponent],
+  declarations: [OverviewComponent, PersonComponent, SideInfoComponent, MainInfoComponent],
   imports: [
     CommonModule,
     ViewsRoutingModule,
@@ -25,6 +28,6 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 })
 export class ViewsModule {
   constructor(library: FaIconLibrary) {
-    library.addIcons(faIdCard, faEnvelope, faUniversity, faGlobeAmericas, faBook);
+    library.addIcons(faIdCard, faEnvelope, faUniversity, faGlobeAmericas, faBook, faBuilding, faAtlas);
   }
 }
