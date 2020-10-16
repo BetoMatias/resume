@@ -8,6 +8,8 @@ import { SideInfoComponent } from './components/side-info/side-info.component';
 
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+
 import { faIdCard } from '@fortawesome/free-solid-svg-icons';
 import { faUniversity } from '@fortawesome/free-solid-svg-icons';
 import { faAtlas } from '@fortawesome/free-solid-svg-icons';
@@ -23,7 +25,8 @@ import { MainInfoComponent } from './components/main-info/main-info.component';
   imports: [
     CommonModule,
     ViewsRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MatProgressBarModule
   ]
 })
 export class ViewsModule {
