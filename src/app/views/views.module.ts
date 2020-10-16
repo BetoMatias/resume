@@ -14,10 +14,18 @@ import { faIdCard } from '@fortawesome/free-solid-svg-icons';
 import { faUniversity } from '@fortawesome/free-solid-svg-icons';
 import { faAtlas } from '@fortawesome/free-solid-svg-icons';
 import { faBuilding } from '@fortawesome/free-solid-svg-icons';
+import { faPeopleArrows } from '@fortawesome/free-solid-svg-icons';
 import { faGlobeAmericas } from '@fortawesome/free-solid-svg-icons';
 import { faBook } from '@fortawesome/free-solid-svg-icons';
+
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
+
 import { MainInfoComponent } from './components/main-info/main-info.component';
+
 
 
 @NgModule({
@@ -31,6 +39,6 @@ import { MainInfoComponent } from './components/main-info/main-info.component';
 })
 export class ViewsModule {
   constructor(library: FaIconLibrary) {
-    library.addIcons(faIdCard, faEnvelope, faUniversity, faGlobeAmericas, faBook, faBuilding, faAtlas);
+    library.addIcons(faIdCard, faEnvelope, faUniversity, faGlobeAmericas, faBook, faBuilding, faAtlas, faGithub, faPeopleArrows, faLinkedin);
   }
 }
